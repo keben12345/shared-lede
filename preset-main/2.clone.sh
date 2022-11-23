@@ -5,6 +5,8 @@ git clone --depth 1 -b master https://github.com/Lienol/openwrt openwrt && mv ./
 
 # 下载插件
 mkdir -p package/supply-packages && cd package/supply-packages
+git clone --depth 1 https://github.com/kiddin9/openwrt-bypass.git
+git clone --depth=1 https://github.com/fw876/helloworld.git 
 git clone --depth 1 https://github.com/jerrykuku/luci-theme-argon.git
 git clone --depth 1 https://github.com/jerrykuku/luci-app-argon-config.git
 git clone --depth 1 https://github.com/jerrykuku/luci-app-vssr.git
