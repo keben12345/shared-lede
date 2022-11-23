@@ -7,10 +7,10 @@ git clone --depth 1 -b master https://github.com/Lienol/openwrt openwrt && mv ./
 mkdir -p package/supply-packages && cd package/supply-packages
 git clone --depth 1 https://github.com/kiddin9/openwrt-bypass.git
 git clone --depth=1 https://github.com/fw876/helloworld.git 
-git clone --depth 1 https://github.com/jerrykuku/luci-theme-argon.git
-git clone --depth 1 https://github.com/jerrykuku/luci-app-argon-config.git
-git clone --depth 1 https://github.com/jerrykuku/luci-app-vssr.git
-git clone --depth 1 https://github.com/jerrykuku/lua-maxminddb.git
+# git clone --depth 1 https://github.com/jerrykuku/luci-theme-argon.git
+# git clone --depth 1 https://github.com/jerrykuku/luci-app-argon-config.git
+# git clone --depth 1 https://github.com/jerrykuku/luci-app-vssr.git
+# git clone --depth 1 https://github.com/jerrykuku/lua-maxminddb.git
 git clone --depth 1 https://github.com/Ausaci/luci-app-nat6-helper.git
 git clone --depth 1 -b packages https://github.com/xiaorouji/openwrt-passwall.git pw-dependencies
 svn export https://github.com/xiaorouji/openwrt-passwall/branches/luci/luci-app-passwall
